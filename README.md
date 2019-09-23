@@ -11,7 +11,7 @@ __Welcome to this little game I made with some help from Gen Assemb.ly__
 
 It is my take on the classic rock - paper - scissors with the added fun of lizard and spock options.
 
-The prompt will ask you you move.
+The prompt will ask you for your move.
 
 The prompt will then alert you the computers random move from a random number generator (1-5).
 
