@@ -86,7 +86,7 @@ let compMove = randomMove();
       alert('The computer threw: ' + compMove)
       alert (decidePromptWinner(x='spock',compMove))
     } else if ((rockPaperSci !== 'rock')||(rockPaperSci !=='paper')||(rockPaperSci!=='lizard')||(rockPaperSci!=='scissors')||(rockPaperSci!=='spock')){
-      alert("Please enter your move in lowercase exactly as it is spelled in the prompt ... or you chose to exit. thanks for stopping by.... Not much else here currently.")
+      alert("Please enter your move in lowercase exactly as it is spelled in the prompt ... or you chose to exit. Thanks for stopping by.... Not much else here currently.")
     };
 
   
@@ -95,73 +95,73 @@ let compMove = randomMove();
    function decidePromptWinner(x, computersMove) {
     if (x === computersMove) {
          console.log("you threw " +x);
-         console.log("comp threw " +computersMove);
+         console.log("the comp threw " +computersMove);
         return 'The game is a tie!'
       } else if // scissors cuts paper
        ((x === 'paper') && (computersMove === 'scissors')) {
          console.log("you threw " +x);
-         console.log("comp threw " +computersMove);
+         console.log("the comp threw " +computersMove);
          alert( 'The machine won! - scissors cuts paper'); 
          console.log("The machine won! - scissors cuts paper");
          alert("Refresh to play again");
 }      else if //paper covers rock 
          ((x === 'rock') && (computersMove === 'paper')) {
           console.log("you threw " +x);
-          console.log("comp threw " +computersMove);         
+          console.log("the comp threw " +computersMove);         
           alert( 'The machine won! - paper covers rock' )
           console.log("The machine won! - paper covers rock")
           alert("Refresh to play again")
 }      else // rock crushes lizard
           if ((x === 'lizard') && (computersMove === 'rock')) {
             console.log("you threw " +x);
-            console.log("comp threw " +computersMove); 
+            console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - rock crushes lizard')
             alert("Refresh to play again")
 }       else // lizard posions spock
           if ((x === 'Spock') && (computersMove === 'lizard')) {
             console.log("you threw " +x);
-            console.log("comp threw " +computersMove); 
+            console.log("the comp threw " +computersMove); 
             alert( 'The machine won! lizard posions spock') 
             alert("Refresh to play again")
 }       else // spock smashes scissors
           if ((x === 'scissors') && (computersMove === 'Spock')) {
             console.log("you threw " +x);
-            console.log("comp threw " +computersMove); 
+            console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - spock smashes scissors' )
             alert("Refresh to play again")        
 }       else // scissors decapitate lizard
           if ((x === 'lizard') && (computersMove === 'scissors')) {
             console.log("you threw " +x);
-            console.log("comp threw " +computersMove); 
+            console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - scissors decapitate lizard')
             alert("Refresh to play again")
 }       else //lizard eats paper
           if ((x === 'paper') && (computersMove === 'lizard')) {
             console.log("you threw " +x);
-            console.log("comp threw " +computersMove); 
+            console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - lizard eats paper')
             alert("Refresh to play again")
 }       else    // paper disproves spock
           if ((x === 'Spock') && (computersMove === 'paper')) {
             console.log("you threw " +x);
-            console.log("comp threw " +computersMove); 
+            console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - paper disproves spock')
             alert("Refresh to play again")
 }       else // spock vaporizes rock
           if ((x === 'rock') && (computersMove === 'Spock')) {
             console.log("you threw " +x);
-            console.log("comp threw " +computersMove); 
+            console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - spock vaporizes rock')
             alert("Refresh to play again")
 }       else // and as always has rock crushes scissors
           if ((x === 'scissors') && (computersMove === 'rock')) {
             console.log("you threw " +x);
-            console.log("comp threw " +computersMove); 
+            console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - and as always has rock crushes scissors')
             alert("Refresh to play again")
 }       else 
           console.log("you threw " +x);
-          console.log("comp threw " +computersMove); 
+          console.log("the comp threw " +computersMove); 
           alert( 'You won! - good job')
           alert("Refresh to play again")
 };
