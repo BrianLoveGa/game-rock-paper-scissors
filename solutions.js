@@ -89,7 +89,7 @@ let compMove = randomMove();
       alert("Please enter your move in lowercase exactly as it is spelled in the prompt ... or you chose to exit. thanks for stopping by.... Not much else here currently.")
     };
 
-
+  
 
 
    function decidePromptWinner(x, computersMove) {
