@@ -93,7 +93,7 @@ let compMove = randomMove();
 
 
    function decidePromptWinner(x, computersMove) {
-    if (x == computersMove) {
+    if (x === computersMove) {
          console.log("you threw " +x);
          console.log("the comp threw " +computersMove);
         return 'The game is a tie!'
@@ -118,7 +118,7 @@ let compMove = randomMove();
             alert( 'The machine won! - rock crushes lizard')
             alert("Refresh to play again")
 }       else // lizard posions spock
-          if ((x === 'Spock') && (computersMove === 'lizard')) {
+          if ((x === 'spock') && (computersMove === 'lizard')) {
             console.log("you threw " +x);
             console.log("the comp threw " +computersMove); 
             alert( 'The machine won! lizard posions spock') 
@@ -142,7 +142,7 @@ let compMove = randomMove();
             alert( 'The machine won! - lizard eats paper')
             alert("Refresh to play again")
 }       else    // paper disproves spock
-          if ((x === 'Spock') && (computersMove === 'paper')) {
+          if ((x === 'spock') && (computersMove === 'paper')) {
             console.log("you threw " +x);
             console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - paper disproves spock')
