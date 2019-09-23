@@ -12,7 +12,7 @@
        case 2:
          return 'scissors';
        case 3:
-         return 'Spock';
+         return 'spock';
        case 4:
          return 'lizard';        
        }
@@ -31,10 +31,10 @@
           if ((usersMove === 'lizard') && (computersMove === 'rock')) {
          return 'The machine won! rock crushes lizard'
 }       else // lizard posions spock
-          if ((usersMove === 'Spock') && (computersMove === 'lizard')) {
+          if ((usersMove === 'spock') && (computersMove === 'lizard')) {
          return 'The machine won! lizard posions spock'
 }       else // spock smashes scissors
-          if ((usersMove === 'scissors') && (computersMove === 'Spock')) {
+          if ((usersMove === 'scissors') && (computersMove === 'spock')) {
          return 'The machine won! spock smashes scissors'         
 }       else // scissors decapitate lizard
           if ((usersMove === 'lizard') && (computersMove === 'scissors')) {
@@ -43,10 +43,10 @@
           if ((usersMove === 'paper') && (computersMove === 'lizard')) {
          return 'The machine won! lizard eats paper'
 }       else    // paper disproves spock
-          if ((usersMove === 'Spock') && (computersMove === 'paper')) {
+          if ((usersMove === 'spock') && (computersMove === 'paper')) {
          return 'The machine won! paper disproves spock'
 }       else // spock vaporizes rock
-          if ((usersMove === 'rock') && (computersMove === 'Spock')) {
+          if ((usersMove === 'rock') && (computersMove === 'spock')) {
          return 'The machine won! spock vaporizes rock'
 }       else // and as always has rock crushes scissors
           if ((usersMove === 'scissors') && (computersMove === 'rock')) {
@@ -124,7 +124,7 @@ let compMove = randomMove();
             alert( 'The machine won! lizard posions spock') 
             alert("Refresh to play again")
 }       else // spock smashes scissors
-          if ((x === 'scissors') && (computersMove === 'Spock')) {
+          if ((x === 'scissors') && (computersMove === 'spock')) {
             console.log("you threw " +x);
             console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - spock smashes scissors' )
@@ -148,7 +148,7 @@ let compMove = randomMove();
             alert( 'The machine won! - paper disproves spock')
             alert("Refresh to play again")
 }       else // spock vaporizes rock
-          if ((x === 'rock') && (computersMove === 'Spock')) {
+          if ((x === 'rock') && (computersMove === 'spock')) {
             console.log("you threw " +x);
             console.log("the comp threw " +computersMove); 
             alert( 'The machine won! - spock vaporizes rock')
