@@ -30,7 +30,7 @@ Coming soon
 
 The ability to play repeat rounds without just refreshing the page.
 
-A scoreboard oince the above is achieved.
+A scoreboard once the above is achieved.
 
 Moving away from the prompts and having buttons to click instead of words to type so the error of mispelling or all caps would be avoidable.
 
