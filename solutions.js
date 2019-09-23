@@ -93,7 +93,7 @@ let compMove = randomMove();
 
 
    function decidePromptWinner(x, computersMove) {
-    if (x === computersMove) {
+    if (x == computersMove) {
          console.log("you threw " +x);
          console.log("the comp threw " +computersMove);
         return 'The game is a tie!'
