@@ -23,36 +23,36 @@
         return 'The game is a tie!'
       } else if // scissors cuts paper
        ((usersMove === 'paper') && (computersMove === 'scissors')) {
-         return 'The machine won!'
+         return 'The machine won! scissors cut paper'
 }      else if //paper covers rock 
          ((usersMove === 'rock') && (computersMove === 'paper')) {
-         return 'The machine won!'
+         return 'The machine won! paper covers rock'
 }      else // rock crushes lizard
           if ((usersMove === 'lizard') && (computersMove === 'rock')) {
-         return 'The machine won!'
+         return 'The machine won! rock crushes lizard'
 }       else // lizard posions spock
           if ((usersMove === 'Spock') && (computersMove === 'lizard')) {
-         return 'The machine won!'
+         return 'The machine won! lizard posions spock'
 }       else // spock smashes scissors
           if ((usersMove === 'scissors') && (computersMove === 'Spock')) {
-         return 'The machine won!'         
+         return 'The machine won! spock smashes scissors'         
 }       else // scissors decapitate lizard
           if ((usersMove === 'lizard') && (computersMove === 'scissors')) {
-         return 'The machine won!'
+         return 'The machine won! scissors decapitate lizard'
 }       else //lizard eats paper
           if ((usersMove === 'paper') && (computersMove === 'lizard')) {
-         return 'The machine won!'
+         return 'The machine won! lizard eats paper'
 }       else    // paper disproves spock
           if ((usersMove === 'Spock') && (computersMove === 'paper')) {
-         return 'The machine won!'
+         return 'The machine won! paper disproves spock'
 }       else // spock vaporizes rock
           if ((usersMove === 'rock') && (computersMove === 'Spock')) {
-         return 'The machine won!'
+         return 'The machine won! spock vaporizes rock'
 }       else // and as always has rock crushes scissors
           if ((usersMove === 'scissors') && (computersMove === 'rock')) {
-         return 'The machine won!'
+         return 'The machine won! rock crushes scissors'
 }       else 
-         return 'You won!'
+         return 'Computer won!'
 };
    
 
@@ -64,12 +64,12 @@ let compMove = randomMove();
    const rockPaperScissors = () => {
     let usersMove = randomMove();
     const computersMove = randomMove();
-     console.log('You threw: ' + usersMove);
-       console.log('The computer threw: ' + computersMove);
+     console.log('Computer threw: ' + usersMove);
+       console.log('The machine threw: ' + computersMove);
              console.log(decideWinner(usersMove,computersMove));
    }
 
-   let rockPaperSci = prompt("What do you throw? Enter your answer below ... 3....2.....1.......Shoot", "rock or paper or lizard or scissors or spock")
+   let rockPaperSci = prompt("What do you throw? Enter your answer below ... 3....2.....1.......Shoot", "CHOOSE: rock or paper or lizard or scissors or spock")
     if (rockPaperSci === 'rock'){
       alert('The computer threw: ' + compMove)
       alert (decidePromptWinner(x='rock',compMove))
