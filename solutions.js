@@ -96,7 +96,8 @@ let compMove = randomMove();
     if (x === computersMove) {
          console.log("you threw " +x);
          console.log("the comp threw " +computersMove);
-        return 'The game is a tie!'
+        console.log( 'The game is a tie!' );
+        alert(" This round is a tie ");
       } else if // scissors cuts paper
        ((x === 'paper') && (computersMove === 'scissors')) {
          console.log("you threw " +x);
