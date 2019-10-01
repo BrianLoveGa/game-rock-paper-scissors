@@ -99,11 +99,11 @@ const rockPaperSci = prompt("What do you throw? Enter your answer below ... 3...
 
     // delay prompt 5 secs so page can load
 
-    const promptDelay = () =>{
-      setTimeout(rockPaperSci, 5000);
-    };
+    // const promptDelay = () =>{
+    //   setTimeout(rockPaperSci, 5000);
+    // };
     
-    promptDelay();
+    // promptDelay();
   
 
 

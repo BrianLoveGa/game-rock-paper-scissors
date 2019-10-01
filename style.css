@@ -64,6 +64,20 @@ footer:hover{
    }
    footer {
     text-align: center;
+   }
+
+h1 {
+    text-align:center;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size:45px;
+}
+
+
    
 
+   .hands {
+       display: flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
    }
