@@ -4,6 +4,7 @@ A prompt version of the classic rock paper scissors with a little extra ...
 
 made by: Brian Loveless
 
+https://brianlovega.github.io/game-rock-paper-scissors/
 
 ******
 
