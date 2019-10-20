@@ -1,28 +1,29 @@
+/* ///wobble */
 
-
-@keyframes wobble{
-    0%,100%{
+@keyframes wobble {
+    0%,
+    100% {
         transform: none;
     }
-    20%{
+    20% {
         transform: skew(-12.5deg, -12.5deg);
     }
-    40%{
+    40% {
         transform: skew(6.25deg, 6.25deg);
     }
-    60%{
+    60% {
         transform: skew(-3.12deg, -3.12deg);
     }
-    80%{
+    80% {
         transform: skew(1.5deg, 1.5deg);
     }
 }
 
-.contain{
+.contain {
     display: flex;
 }
 
-.wobble{
+.wobble {
     color: rgb(65, 250, 9);
     background-color: darkmagenta;
     border-radius: 10px;
@@ -30,54 +31,56 @@
     text-transform: uppercase;
 }
 
-.wobble:hover{
+.wobble:hover {
     transform: none;
-    animation: .8s wobble ease-in-out both;
+    animation: 0.8s wobble ease-in-out both;
 }
 
-
-footer:hover{
+footer:hover {
     transform: none;
-    animation: .8s wobble ease-in-out both;
+    animation: 0.8s wobble ease-in-out both;
 }
 
 * {
     box-sizing: border-box;
-   }
-   *:before,
-   *:after {
+}
+
+*:before,
+*:after {
     box-sizing: border-box;
-   }
-   html,
-   body {
+}
+
+html,
+body {
     height: 100%;
     position: relative;
     background-color: black;
     color: whitesmoke;
-   }
-   .main-container {
-    min-height: 100vh; /* will cover the 100% of viewport */
+}
+
+.main-container {
+    min-height: 100vh;
+    /* will cover the 100% of viewport */
     overflow: hidden;
     display: block;
     position: relative;
-    margin-bottom: -500px; /* height of your footer */
-   }
-   footer {
-    text-align: center;
-   }
-
-h1 {
-    text-align:center;
-    font-family: 'Bree Serif', serif;
-    text-shadow: 4px 4px 4px #aaa;
-    font-size:45px;
+    margin-bottom: -500px;
+    /* height of your footer */
 }
 
+footer {
+    text-align: center;
+}
 
-   
+h1 {
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 45px;
+}
 
-   .hands {
-       display: flex;
-       justify-content: space-evenly;
-       flex-wrap: wrap;
-   }
+.hands {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
