@@ -1,28 +1,29 @@
 
 
-@keyframes wobble{
-    0%,100%{
+@keyframes wobble {
+    0%,
+    100% {
         transform: none;
     }
-    20%{
+    20% {
         transform: skew(-12.5deg, -12.5deg);
     }
-    40%{
+    40% {
         transform: skew(6.25deg, 6.25deg);
     }
-    60%{
+    60% {
         transform: skew(-3.12deg, -3.12deg);
     }
-    80%{
+    80% {
         transform: skew(1.5deg, 1.5deg);
     }
 }
 
-.contain{
+.contain {
     display: flex;
 }
 
-.wobble{
+.wobble {
     color: rgb(65, 250, 9);
     background-color: darkmagenta;
     border-radius: 10px;
@@ -30,9 +31,9 @@
     text-transform: uppercase;
 }
 
-.wobble:hover{
+.wobble:hover {
     transform: none;
-    animation: .8s wobble ease-in-out both;
+    animation: 0.8s wobble ease-in-out both;
 }
 
 
@@ -58,17 +59,14 @@
 
 
 h1 {
-    text-align:center;
-    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-family: "Bree Serif", serif;
     text-shadow: 4px 4px 4px #aaa;
-    font-size:45px;
+    font-size: 45px;
 }
 
-
-   
-
-   .hands {
-       display: flex;
-       justify-content: space-evenly;
-       flex-wrap: wrap;
-   }
+.hands {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
