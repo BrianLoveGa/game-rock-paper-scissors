@@ -36,18 +36,11 @@
 }
 
 
-footer:hover{
-    transform: none;
-    animation: .8s wobble ease-in-out both;
+.back{
+    background-color:
 }
 
-* {
-    box-sizing: border-box;
-   }
-   *:before,
-   *:after {
-    box-sizing: border-box;
-   }
+
    html,
    body {
     height: 100%;
@@ -56,15 +49,13 @@ footer:hover{
     color: whitesmoke;
    }
    .main-container {
-    min-height: 100vh; /* will cover the 100% of viewport */
+    min-height: 100vh; 
     overflow: hidden;
     display: block;
     position: relative;
-    margin-bottom: -500px; /* height of your footer */
+    margin-bottom: -500px; 
    }
-   footer {
-    text-align: center;
-   }
+
 
 h1 {
     text-align:center;
