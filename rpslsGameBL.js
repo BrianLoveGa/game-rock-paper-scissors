@@ -77,23 +77,23 @@
 
  
 const rockPaperSci = prompt("What do you throw? Enter your answer below ... 3....2.....1.......Shoot", "CHOOSE: rock or paper or lizard or scissors or spock")
-    if (rockPaperSci === 'rock'){
+    if ((rockPaperSci).toLowerCase() === 'rock'){
       alert('The computer threw: ' + compuMove)
-      alert (decidePromptWinner(x='rock',compuMove))
-    } else if (rockPaperSci === 'paper') {
+      decidePromptWinner(x='rock',compuMove)
+    } else if ((rockPaperSci).toLowerCase() === 'paper') {
       alert('The computer threw: ' + compuMove)
-      alert (decidePromptWinner(x='paper',compuMove))
-    } else if (rockPaperSci === 'lizard'){
+      decidePromptWinner(x='paper',compuMove)
+    } else if ((rockPaperSci).toLowerCase() === 'lizard'){
       alert('The computer threw: ' + compuMove)
-      alert (decidePromptWinner(x='lizard',compuMove))
-    } else if (rockPaperSci === 'scissors'){
+      decidePromptWinner(x='lizard',compuMove)
+    } else if ((rockPaperSci).toLowerCase() === 'scissors'){
       alert('The computer threw: ' + compuMove)
-      alert (decidePromptWinner(x='scissors',compuMove))
-    } else if (rockPaperSci === 'spock'){
+      decidePromptWinner(x='scissors',compuMove)
+    } else if ((rockPaperSci).toLowerCase() === 'spock'){
       alert('The computer threw: ' + compuMove)
-      alert (decidePromptWinner(x='spock',compuMove))
-    } else if ((rockPaperSci !== 'rock')||(rockPaperSci !=='paper')||(rockPaperSci!=='lizard')||(rockPaperSci!=='scissors')||(rockPaperSci!=='spock')){
-      alert("Please enter your move in lowercase exactly as it is spelled in the prompt ... or you chose to exit. Thanks for stopping by.... Not much else here currently.")
+      decidePromptWinner(x='spock',compuMove)
+    } else {
+      alert("Please enter your move exactly as it is spelled in the prompt ... or you chose to exit. Thanks for stopping by.... Not much else here currently.")
 
     };
 
@@ -112,6 +112,7 @@ const rockPaperSci = prompt("What do you throw? Enter your answer below ... 3...
          console.log("you threw " +x);
          console.log("the comp threw " +compuMove);
         console.log( 'The game is a tie!' );
+        alert('Refresh to play again');
         alert(" This round is a tie ");
       } else if // scissors cuts paper
        ((x === 'paper') && (compuMove === 'scissors')) {
