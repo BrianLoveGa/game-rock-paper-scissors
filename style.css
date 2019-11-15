@@ -26,8 +26,8 @@
 	background-color: darkmagenta;
 	border-radius: 10px;
 	padding: 10px;
-    text-transform: uppercase;
-    margin: 2% 5%;
+	text-transform: uppercase;
+	margin: 2% 5%;
 }
 
 .wobble:hover {
@@ -36,14 +36,25 @@
 }
 
 .click {
-    background-color: rgb(49, 170, 25);
-    color:black;
-    font-size:30px;
-    padding:15px 30px;
-    margin: 5% 30%;
-    border:3px solid black;
-    border-radius: 20px;
+	background-color: rgb(49, 170, 25);
+	color: black;
+	font-size: 30px;
+	padding: 15px 30px;
+	margin: 5% 30%;
+	border: 3px solid rgb(255, 255, 255);
+	border-radius: 20px;
+}
 
+.click:hover {
+	background-color: rgb(57, 228, 23);
+	color: black;
+	font-size: 32px;
+	padding: 16px 32px;
+	margin: 5% 28%;
+	border: 5px solid rgb(147, 105, 105);
+    border-radius: 20px;
+    cursor: crosshair;
+    
 }
 
 html,
@@ -51,8 +62,8 @@ body {
 	height: 100%;
 	position: relative;
 	background-color: black;
-    color: whitesmoke;
-    margin:2%;
+	color: whitesmoke;
+	margin: 2%;
 }
 .main-container {
 	min-height: 100vh;
@@ -75,17 +86,15 @@ h1 {
 	flex-wrap: wrap;
 }
 
-@media (max-width:600px){
-    html{
-        margin:1%;
-    }
-    .click{
-    
-    font-size:20px;
-    padding:5px 10px;
-    margin: 3% 10%;
-    border:3px solid black;
-    border-radius: 20px;
-
-    }
+@media (max-width: 600px) {
+	html {
+		margin: 1%;
+	}
+	.click {
+		font-size: 20px;
+		padding: 5px 10px;
+		margin: 3% 10%;
+		border: 3px solid black;
+		border-radius: 20px;
+	}
 }
