@@ -26,7 +26,8 @@
 	background-color: darkmagenta;
 	border-radius: 10px;
 	padding: 10px;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    margin: 2% 5%;
 }
 
 .wobble:hover {
