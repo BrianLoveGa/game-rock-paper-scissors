@@ -1,72 +1,90 @@
-
-
 @keyframes wobble {
-    0%,
-    100% {
-        transform: none;
-    }
-    20% {
-        transform: skew(-12.5deg, -12.5deg);
-    }
-    40% {
-        transform: skew(6.25deg, 6.25deg);
-    }
-    60% {
-        transform: skew(-3.12deg, -3.12deg);
-    }
-    80% {
-        transform: skew(1.5deg, 1.5deg);
-    }
+	0%,
+	100% {
+		transform: none;
+	}
+	20% {
+		transform: skew(-12.5deg, -12.5deg);
+	}
+	40% {
+		transform: skew(6.25deg, 6.25deg);
+	}
+	60% {
+		transform: skew(-3.12deg, -3.12deg);
+	}
+	80% {
+		transform: skew(1.5deg, 1.5deg);
+	}
 }
 
 .contain {
-    display: flex;
+	display: flex;
 }
 
 .wobble {
-    color: rgb(65, 250, 9);
-    background-color: darkmagenta;
-    border-radius: 10px;
-    padding: 10px;
-    text-transform: uppercase;
+	color: rgb(65, 250, 9);
+	background-color: darkmagenta;
+	border-radius: 10px;
+	padding: 10px;
+	text-transform: uppercase;
 }
 
 .wobble:hover {
-    transform: none;
-    animation: 0.8s wobble ease-in-out both;
+	transform: none;
+	animation: 0.8s wobble ease-in-out both;
 }
 
+.click {
+    background-color: rgb(49, 170, 25);
+    color:black;
+    font-size:30px;
+    padding:15px 30px;
+    margin: 5% 30%;
+    border:3px solid black;
+    border-radius: 20px;
 
-.back{
-    background-color:
 }
 
-
-   html,
-   body {
-    height: 100%;
-    position: relative;
-    background-color: black;
+html,
+body {
+	height: 100%;
+	position: relative;
+	background-color: black;
     color: whitesmoke;
-   }
-   .main-container {
-    min-height: 100vh; 
-    overflow: hidden;
-    display: block;
-    position: relative;
-    margin-bottom: -500px; 
-   }
-
+    margin:2%;
+}
+.main-container {
+	min-height: 100vh;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	margin-bottom: -500px;
+}
 
 h1 {
-    text-align: center;
-    font-family: "Bree Serif", serif;
-    text-shadow: 4px 4px 4px #aaa;
-    font-size: 45px;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	text-shadow: 4px 4px 4px #aaa;
+	font-size: 45px;
 }
 
 .hands {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+@media (max-width:600px){
+    html{
+        margin:1%;
+    }
+    .click{
+    
+    font-size:20px;
+    padding:5px 10px;
+    margin: 3% 10%;
+    border:3px solid black;
+    border-radius: 20px;
+
+    }
 }

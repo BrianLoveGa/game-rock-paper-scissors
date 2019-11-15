@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-150391259-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
 
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150391259-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
+			gtag('config', 'UA-150391259-1');
+		</script>
 
-        gtag("config", "UA-150391259-1");
-    </script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Bree+Serif"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/70784aaaa8.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Rock Paper Scissors via prompts by BL</title>
+	</head>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/70784aaaa8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Rock Paper Scissors via prompts by BL</title>
-</head>
-
-<body>
-    <div class="”main-container”">
-        <header>
-            <h1>Lets play a fun and simple little game !</h1>
-            <div class="hands">
-                <i class="far fa-hand-rock fa-3x"></i>
-                <i class="far fa-hand-paper fa-3x"></i>
-                <i class="far fa-hand-scissors fa-3x"></i>
-                <i class="far fa-hand-lizard fa-3x"></i>
-                <i class="far fa-hand-spock fa-3x"></i>
-            </div>
-        </header>
-        <hr />
-        <section>
-            <h2>In case you don't know how to play this is from</h2>
-            <h2>https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock</h2>
-            <div class="contain">
-                <a class="wobble" href="https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock" target="_blank">link to wiki page</a
+	<body>
+		<div class="”main-container”">
+			<header>
+				<h1>Lets play a fun and simple little game !</h1>
+				<div class="hands">
+					<i class="far fa-hand-rock fa-3x"></i>
+					<i class="far fa-hand-paper fa-3x"></i>
+					<i class="far fa-hand-scissors fa-3x"></i>
+					<i class="far fa-hand-lizard fa-3x"></i>
+					<i class="far fa-hand-spock fa-3x"></i>
+				</div>
+			</header>
+			<hr />
+			<section>
+				<h2>In case you don't know how to play this is from</h2>
+				<h2>https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock</h2>
+				<div class="contain">
+					<a
+						class="wobble"
+						href="https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock"
+						target="_blank"
+						>link to wiki page</a
 					>
 				</div>
 				<br />
@@ -63,22 +75,30 @@
 					<a class="wobble" href="https://www.brianloveless.com" target="_blank"
 						>link back to my site</a
 					>
-                </div>
+				</div>
 				<br />
 				<hr />
 
 				<br />
-                <h1>To play again refresh the page for now.</h1>
-                <div class="contain">
-                <a class="wobble" href="https://brianlovega.github.io/game-rock-paper-scissors/">OR CLICK HERE</a>
-                  </div>
+				<h1>
+					To play
+					<input
+						id="clickMe"
+						class="click"
+						type="button"
+						value="click me to play the game"
+						onclick="rpsls();"
+					/>
+				</h1>
+				
+				</div>
 				<hr />
 				<h2>
 					Also you can open the console log to see what happened in You vs the
 					Comp or watch the computer play itself (computer vs machine).
 				</h2>
 				<h2>You vs the Comp.</h2>
-				<h2>Lines 102 thru 255 will be from what you did in the prompt.</h2>
+				<h2>Lines 102 thru 255 displayed in console log will be from what you do playing the prompt version.</h2>
 				<br />
 				<hr />
 				<br />
@@ -96,7 +116,7 @@
 				<hr />
 				<br />
 				<h3>
-					More features coming soon. 
+					More features coming soon.
 				</h3>
 			</section>
 		</div>
