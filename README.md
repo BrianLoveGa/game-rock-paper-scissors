@@ -18,13 +18,24 @@ made by: Brian Loveless
 
 It is my take on the classic rock - paper - scissors with the added fun of lizard and spock options.
 
+Simply click the big green button to play.
+
 The prompt will ask you for your move.
+
+Spelling counts when entering your move...
+... But CAPItalizATion DOes noT ! ...
+
+<!-- Picture below  from game -->
+![alt text](https://github.com/BrianLoveGa/game-rock-paper-scissors/blob/master/public/rpsls2.png "Screenshot of game play")
+
+
 
 The prompt will then alert you the computers random move from a random number generator (1-5).
 
 You will then be alerted if you won or lost.
 
-Currently you must refresh to play again.
+<!-- Picture below  from game -->
+![alt text](https://github.com/BrianLoveGa/game-rock-paper-scissors/blob/master/public/rpsls1.png "Screenshot of game win")
 
 You can also open the console log and make the computer play against itself if that tickles your fancy.
 
@@ -36,8 +47,8 @@ The ability to play repeat rounds without just refreshing the page.
 
 A scoreboard once the above is achieved.
 
-Moving away from the prompts and having buttons to click instead of words to type so the error of mispelling or all caps would be avoidable.
+Moving away from the prompts and having buttons to click instead of words to type so the error of mispelling would be avoidable.
 
 ---
 
-Added in google analytics to see what it was all about.
+Added in google analytics to see what it was all about. So thanks for visiting to give me data.
