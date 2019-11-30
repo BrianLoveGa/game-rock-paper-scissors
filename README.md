@@ -8,6 +8,12 @@ made by: Brian Loveless
 
 ---
 
+<!-- Picture below of code from game -->
+
+![alt text](https://github.com/BrianLoveGa/game-rock-paper-scissors/blob/master/public/Screen%20Shot%202019-10-13%20at%2010.07.07%20PM%20copy.png "Code snippet frpm game prototype")
+
+******
+
 **Welcome to this little game I made with some help from Gen Assemb.ly**
 
 It is my take on the classic rock - paper - scissors with the added fun of lizard and spock options.
