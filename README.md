@@ -29,10 +29,10 @@ Spelling counts when entering your move...
 ![alt text](https://github.com/BrianLoveGa/game-rock-paper-scissors/blob/master/public/rpsls2.png "Screenshot of game play")
 
 
+__The prompt will then alert you the computers random move from a random number generator (1-5).__
 
-The prompt will then alert you the computers random move from a random number generator (1-5).
+__You will then be alerted if you won or lost.__
 
-You will then be alerted if you won or lost.
 
 <!-- Picture below  from game -->
 ![alt text](https://github.com/BrianLoveGa/game-rock-paper-scissors/blob/master/public/rpsls1.png "Screenshot of game win")
