@@ -8,7 +8,7 @@ console.log("HEY HEY");
 /// score and status updates
 
 let you = document.getElementById("you");
-you.innerText = " choice ";
+
 /// player choices of weapon
 
 let rock = document.getElementById("rock");
@@ -84,14 +84,17 @@ function rpsls(e) {
     cm = puter.innerText;
 
     console.log(cm);
+    console.log(ym)
     return cm;
+   
   }
-  compare(ym, cm);
+  
   /// get player choice
   /// get comp random move
 
   /// .....
   /// then profits
+   compare(ym, cm);
 }
 
 let status = document.getElementById("status");
@@ -109,6 +112,7 @@ function compare(ym, cm) {
   if (ym === cm) {
     status.innerText = "you tied";
     tie += 1;
+    console.log('tie')
     // 10 ways to lose - 2 per option
   } else if (ym === "paper" && cm === "scissors") {
     status.innerText = "you lost comp sci cuts your paper";
