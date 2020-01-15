@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.yourMove {
+  border: 4px solid black;
+  margin: 1%;
+  padding: 5px;
+  width:30%;
+  text-align: center;
+}
