@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>RPSLS by BL</title>
-     <link rel="stylesheet" type="text/css" href="new.css" />
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="new.css" />
+  </head>
+  <body>
     <h1>RPSLS</h1>
-    <div class="options">
-    <div class="game" id="rock">rock</div>
-     <div class="game" id="paper">paper</div>
-      <div class="game" id="scissors">scissors</div>
-       <div class="game" id="lizard">lizard</div>
-        <div class="game" id="spock">spock</div>
-        </div>
-        <div class="moves">
-        <h2>your move : </h2>
-        <div class="yourMove" id="you"> choice</div>
-        <button id="shoot">3...2...1.... shoot</button>
-        <h2>computer throws :</h2>
-        <div class="compMove" id="comp"> rock</div>
-            </div>
-            <div class="score">
-                <div id="status">You Tie</div>
-                <h2>wins:</h2>
-                <div id="win">0</div>
-                 <h2>losses:</h2>
-                <div id="lose">0</div>
-                 <h2>ties:</h2>
-                <div id="tie">0</div>
-            </div>
+    <h2>
+      An in browser version with no popups or typing required and a score keeper
+    </h2>
+    <h3>
+      Click this
+      <a class="link" href="https://brianlovega.github.io/game-rock-paper-scissors/">link</a
+      >to go back to the original popup style page
+    </h3>
+    <h2>Select your weapon below and click the shoot button to play</h2>
 
+    <div class="options">
+      <div class="game" id="rock">Rock</div>
+      <div class="game" id="paper">Paper</div>
+      <div class="game" id="scissors">Scissors</div>
+      <div class="game" id="lizard">Lizard</div>
+      <div class="game" id="spock">Spock</div>
+    </div>
+    <div class="moves">
+      <h2>your move :</h2>
+      <div class="yourMove" id="you">choice</div>
+      <button id="shoot">3...2...1.... shoot</button>
+
+      <h2>computer throws :</h2>
+      <div class="compMove" id="comp">rock</div>
+    </div>
+    <div class="score">
+      <div id="status">You Tie</div>
+      <h2>wins:</h2>
+      <div id="win">0</div>
+      <h2>losses:</h2>
+      <div id="lose">0</div>
+      <h2>ties:</h2>
+      <div id="tie">0</div>
+    </div>
 
     <script src="new.js"></script>
-</body>
+  </body>
 </html>
