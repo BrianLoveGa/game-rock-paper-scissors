@@ -45,7 +45,9 @@ body {
 }
 
 .options {
-  display: inline-flex;
+display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .score {
@@ -53,5 +55,5 @@ body {
   display: inline-flexbox;
   margin: 2%;
   padding: 5px;
-  align-content: space-around;
+  
 }
