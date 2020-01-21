@@ -16,14 +16,12 @@ Mobile friendly.
 
 ![alt text](https://github.com/BrianLoveGa/game-rock-paper-scissors/blob/master/public/Screen%20Shot%202019-10-13%20at%2010.07.07%20PM%20copy.png "Code snippet frpm game prototype")
 
-******
+---
 It is my take on the classic rock - paper - scissors with the added fun of lizard and spock options.
-
 
 To play just click the word / picture to select your move.
 Then click the 3...2....1... shoot button for the computer to go once your move is picked.
 Score board at botom will update after each round with Win , Loss, or Tie.
-
 
 If you prefer the old way.
 
@@ -36,7 +34,6 @@ Spelling counts when entering your move...
 
 <!-- Picture below  from game -->
 ![alt text](https://github.com/BrianLoveGa/game-rock-paper-scissors/blob/master/public/rpsls2.png "Screenshot of game play")
-
 
 __The prompt will then alert you the computers random move from a random number generator (1-5).__
 
