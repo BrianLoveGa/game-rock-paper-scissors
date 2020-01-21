@@ -89,6 +89,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="new.css" />
     <link rel="icon" href="./public/pico-white-BL.png" />
     <title>Rock Paper Scissors via prompts by BL</title>
   </head>
@@ -133,7 +134,10 @@
         </ul>
       </section>
       <div class="contain">
-        <a class="wobble" href="https://www.brianloveless.com" target="_blank"
+        <a
+          class="wobble"
+          href="https://brianlovega.github.io/portfolio-improvements/"
+          target="_blank"
           >link back to my site</a
         >
       </div>
@@ -143,48 +147,70 @@
       <br />
       <h1>
         To play
-        <input
+       
+      </h1>
+
+      <hr />
+      <h2>Select your weapon below and click the shoot button to play</h2>
+
+      <div class="options">
+        <div class="game" id="rock">
+          Rock<i class="far fa-hand-rock fa-3x"></i>
+        </div>
+        <div class="game" id="paper">
+          Paper<i class="far fa-hand-paper fa-3x"></i>
+        </div>
+        <div class="game" id="scissors">
+          Scissors<i class="far fa-hand-scissors fa-3x"></i>
+        </div>
+        <div class="game" id="lizard">
+          Lizard<i class="far fa-hand-lizard fa-3x"></i>
+        </div>
+        <div class="game" id="spock">
+          Spock<i class="far fa-hand-spock fa-3x"></i>
+        </div>
+      </div>
+      <div class="moves">
+        <h2>your move :</h2>
+        <div class="yourMove" id="you">choice</div>
+        <button id="shoot">3...2...1.... shoot</button>
+
+        <h2>computer throws :</h2>
+        <div class="compMove" id="comp">rock</div>
+      </div>
+      <div id="status">You Tie</div>
+      <div class="score">
+        <h2>
+          wins:
+          <div id="win">0</div>
+        </h2>
+
+        <h2>
+          losses:
+          <div id="lose">0</div>
+        </h2>
+
+        <h2>
+          ties:
+          <div id="tie">0</div>
+        </h2>
+      </div>
+      <hr />
+      <h2>Or play the old version below</h2>
+       <input
           id="clickMe"
           class="click"
           type="button"
           value="click me to play the prompts game"
           onclick="rpsls();"
         />
-        Or play the :
-        <a href="new.html" >New and improved version here</a>
-      </h1>
-
-      <hr />
-      <h2>
-        Also you can open the console log to see what happened in You vs the
-        Comp or watch the computer play itself (computer vs machine).
-      </h2>
-      <h2>You vs the Comp.</h2>
-      <h2>
-        Lines 102 thru 255 displayed in console log will be from what you do
-        playing the prompt version.
-      </h2>
-      <br />
-      <hr />
-      <br />
-      <h2>Computer vs Machine</h2>
-      <h2>
-        2 rounds are pre-programmed to run in the console but if you want to see
-        more just type ...
-      </h2>
-      <h2>rockPaperScissors()</h2>
-      <h2>
-        ... into the bottom line of the console log next to the blue arrow and
-        press enter (return).
-      </h2>
-      <h2>This will be the data from lines 68 thru 73 in the console log.</h2>
-      <hr />
-      <br />
+        
       <h3>
         More features coming soon.
       </h3>
     </div>
 
     <script src="rpslsGameBL.js"></script>
+    <script src="new.js"></script>
   </body>
 </html>

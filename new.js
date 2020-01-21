@@ -93,8 +93,10 @@ function rpsls(e) {
       puter.style.borderColor = "gray";
     } else if (cm === "lizard") {
       puter.style.borderColor = "green";
-    } else {
+    } else if (cm ==="spock"){
       puter.style.borderColor = "blue";
+    } else {
+      puter.style.borderColor = 'black';
     }
     compare(ym, cm);
     return cm;
