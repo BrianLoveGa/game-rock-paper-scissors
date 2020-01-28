@@ -91,7 +91,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="new.css" />
     <link rel="icon" href="./public/pico-white-BL.png" />
-    <title>Rock Paper Scissors via prompts by BL</title>
+    <title>Rock Paper Scissors Lizard Spock by BL</title>
   </head>
 
   <body>
@@ -147,11 +147,10 @@
       <br />
       <h1>
         To play
-       
       </h1>
 
       <hr />
-      <h2>Select your weapon below and click the shoot button to play</h2>
+      <h2>Select your weapon below & click the shoot button to play</h2>
 
       <div class="options">
         <div class="game" id="rock">
@@ -170,11 +169,11 @@
           Spock<i class="far fa-hand-spock fa-3x"></i>
         </div>
       </div>
-    
+
       <div class="moves">
         <h2>your move :</h2>
         <div class="yourMove" id="you">choice</div>
-        <button id="shoot">3...2...1.... shoot</button>
+        <button id="shoot">SHOOT</button>
 
         <h2>computer throws :</h2>
         <div class="compMove" id="comp">rock</div>
@@ -197,21 +196,36 @@
         </h2>
       </div>
 
-      <a class="reset" href="https://brianlovega.github.io/game-rock-paper-scissors/" >Click here to reset the score board</a>
+      <a
+        class="reset"
+        href="https://brianlovega.github.io/game-rock-paper-scissors/"
+        >Click here to reset the score board</a
+      >
       <hr />
       <h2>Or play the old pop-up prompts version below</h2>
       <h3>Prompt verz not tied to score board</h3>
-       <input
-          id="clickMe"
-          class="click"
-          type="button"
-          value="click to play old game"
-          onclick="rpsls();"
-        />
-        
+      <input
+        id="clickMe"
+        class="click"
+        type="button"
+        value="click to play old game"
+        onclick="rpsls();"
+      />
+
       <h3>
         More features coming soon.
       </h3>
+      
+        <h3>
+          Try my other game Bobs Burgers Trivia
+          <a
+            class="wobble"
+            href="https://brianlovega.github.io/bobs_burgers_trivia/"
+            target="_blank"
+            >HERE</a
+          >
+        </h3>
+      
     </div>
 
     <script src="rpslsGameBL.js"></script>
